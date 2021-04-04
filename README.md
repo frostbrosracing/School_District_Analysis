@@ -56,5 +56,9 @@ Thomas High School is a charter school.  The top represents the original analysi
 
 ![scores_by_school_type.png](https://github.com/frostbrosracing/School_District_Analysis/blob/main/Resources/scores_by_school_type.png)
 
-
-The 9th grade Thomas High School scores that were omitted were in-line with the scores from the rest of that school.  Because of this, when making a correction to the Thomas High School results, the  overall district analysis was left largely unaffected.  As seen in the Per School Summary original results versus adjusted results, the overall percentages were within tenths of a percent of each other.  However, if you look at the Per School Summary without the student count being corrected the numbers are quite different.  
+## School District Analysis Summary
+As shown by the examples in this analysis, the overall district results didn't change much if *method 1* was used for the repeated analysis.  However, if *method 2* was used there were some significant changes to the overall results.
+1. Thomas High School fell from 2nd place in the district to 8th place.
+2. The overall passing percentage for schools in the **$630 - $644 per student** spending range fell from **63%** to **56%**.
+3. The overall passing percentage for **medium** sized schools fell from **91%** to **85%**.
+4. The overall passing percentage for **charter** schools fell from **90%** to **87**.
