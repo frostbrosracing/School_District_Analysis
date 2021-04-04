@@ -4,13 +4,11 @@
 #### This project was completed to provide insights to school district administrators about performance trends and patterns among high schools in the district.  
 In order for key personnel to make strategic decisions at the school and district level, a wide range of data were collected and evaluated.  Once completed, it was discovered that there was evidence of academic dishonesty involving both the math and reading scores within a grade level at one of the high schools in the district.  Because of this, it was necessary to repeat the analysis with those suspect scores being removed from the results and the rest of the data remaining intact.  The scope of this project included the following summaries:
   1.  An overall district summary
-  2.  A per school summary
-  3.  The highest and lowest performing schools
-  4.  A summary of the math scores by grade
-  5.  A summary of the reading scores by grade
-  6.  A summary of scores by school spending
-  7.  A summary of scores by school size
-  8.  A summary of scores by school type 
+  2.  A per school summary reflecting the highest and lowest performing schools
+  3.  A summary of the math  and reading scores by grade
+  4.  A summary of scores by school spending
+  5.  A summary of scores by school size
+  6.  A summary of scores by school type 
 #### Resources
 - Data Source: schools_complete.csv, students_complete.csv
 - Software: Python 3.7.9, Jupyter Notebook 6.1.4, Pandas 1.1.3, Numpy 1.17.0
@@ -37,8 +35,15 @@ The results differ greatly when the full student count of Thomas High is conside
 
 ![per_school_summary_2.png](https://github.com/frostbrosracing/School_District_Analysis/blob/main/Resources/per_school_summary_2.png)
 
-### 4. Math and Reading Scores by Grade
+### 3. Math and Reading Scores Summarized by Grade
+The image below shows that the 9th grade Thomas High School scores for Math and Reading have been replaced by ***NaN***.
 
 ![scores_by_grade_summary.png](https://github.com/frostbrosracing/School_District_Analysis/blob/main/Resources/scores_by_grade_summary.png)
+
+### 4. Overall Scores Summarized by School Spending
+Thomas High School has a spending budget of $638 per student.  The spending brackets are binned according to the image below.  As you can see, Thomas High School falls right in the middle of the $630 - $644 per student range.  The top represents the original analysis.  The middle represents the repeated analysis according to *method 1*. The bottom represents the repeated analysis according to *method2*.
+
+![scores_by_school_spending.png](https://github.com/frostbrosracing/School_District_Analysis/blob/main/Resources/scores_by_school_spending.png)
+
 
 The 9th grade Thomas High School scores that were omitted were in-line with the scores from the rest of that school.  Because of this, when making a correction to the Thomas High School results, the  overall district analysis was left largely unaffected.  As seen in the Per School Summary original results versus adjusted results, the overall percentages were within tenths of a percent of each other.  However, if you look at the Per School Summary without the student count being corrected the numbers are quite different.  
