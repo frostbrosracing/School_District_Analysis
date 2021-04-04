@@ -36,10 +36,15 @@ By using the *second method* of calculating the district results, Thomas High Sc
 
 ![per_school_summary_2.png](https://github.com/frostbrosracing/School_District_Analysis/blob/main/Resources/per_school_summary_2.png)
 
-### 3 and 4. Math and Reading Scores Summarized by Grade
-The image below shows that the 9th grade Thomas High School scores for Math and Reading have been replaced by ***NaN***.
+### 3. Math Scores Summarized by Grade
+The image below shows that the 9th grade Thomas High School math scores have been replaced by ***NaN***.
 
-![scores_by_grade_summary.png](https://github.com/frostbrosracing/School_District_Analysis/blob/main/Resources/scores_by_grade_summary.png)
+![math_scores_by_grade_summary.png](https://github.com/frostbrosracing/School_District_Analysis/blob/main/Resources/math_scores_by_grade_summary.png)
+
+### 4. Reading Scores Summarized by Grade
+The image below shows that the 9th grade Thomas High School reading scores have been replaced by ***NaN***.
+
+![reading_scores_by_grade_summary.png](https://github.com/frostbrosracing/School_District_Analysis/blob/main/Resources/reading_scores_by_grade_summary.png)
 
 ### 5. Overall Scores Summarized by School Spending
 Thomas High School has a spending budget of $638 per student.  The spending brackets are binned according to the image below.  As you can see, Thomas High School falls right in the middle of the **$630 - $644 per student** range.  The top represents the original analysis.  The middle represents the repeated analysis according to *method 1*. The bottom represents the repeated analysis according to *method2*.
