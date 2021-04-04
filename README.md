@@ -41,9 +41,20 @@ The image below shows that the 9th grade Thomas High School scores for Math and 
 ![scores_by_grade_summary.png](https://github.com/frostbrosracing/School_District_Analysis/blob/main/Resources/scores_by_grade_summary.png)
 
 ### 4. Overall Scores Summarized by School Spending
-Thomas High School has a spending budget of $638 per student.  The spending brackets are binned according to the image below.  As you can see, Thomas High School falls right in the middle of the $630 - $644 per student range.  The top represents the original analysis.  The middle represents the repeated analysis according to *method 1*. The bottom represents the repeated analysis according to *method2*.
+Thomas High School has a spending budget of $638 per student.  The spending brackets are binned according to the image below.  As you can see, Thomas High School falls right in the middle of the **$630 - $644 per student** range.  The top represents the original analysis.  The middle represents the repeated analysis according to *method 1*. The bottom represents the repeated analysis according to *method2*.
 
 ![scores_by_school_spending.png](https://github.com/frostbrosracing/School_District_Analysis/blob/main/Resources/scores_by_school_spending.png)
+
+### 5. Overall Scores Summarized by School Size
+Thomas High School has a population of 1,635 students.  The school sizes are binned according to the image below.  As you can see, Thomas High School falls in the **Medium** school size.  The top represents the original analysis.  The middle represents the repeated analysis according to *method 1*. The bottom represents the repeated analysis according to *method2*.
+
+![scores_by_school_size]((https://github.com/frostbrosracing/School_District_Analysis/blob/main/Resources/scores_by_school_size.png)
+
+### 6. Overall Scores Summarized by School Type
+
+Thomas High School is a charter school.  The top represents the original analysis.  The middle represents the repeated analysis according to *method 1*. The bottom represents the repeated analysis according to *method2*.
+
+![scores_by_school_type]((https://github.com/frostbrosracing/School_District_Analysis/blob/main/Resources/scores_by_school_type.png)
 
 
 The 9th grade Thomas High School scores that were omitted were in-line with the scores from the rest of that school.  Because of this, when making a correction to the Thomas High School results, the  overall district analysis was left largely unaffected.  As seen in the Per School Summary original results versus adjusted results, the overall percentages were within tenths of a percent of each other.  However, if you look at the Per School Summary without the student count being corrected the numbers are quite different.  
